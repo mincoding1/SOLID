@@ -1,17 +1,15 @@
-class RacingCar {
+#include "Pilot.cpp";
+
+class Pilot {
 public:
-    RacingCar(int max_fuel) {
-        max_fuel_ = max_fuel;
-        remaintning_fuel_ = max_fuel;
+    Pilot() {
+        vehicle_ = RacingCar(100);
     }
 
-    void Accelerate() {
-        power_++;
-        remaintning_fuel_--;
+    void IncreaseSpeed() {
+        vehicle_.Accelerate();
     }
 
 private:
-    int max_fuel_;
-    int remaintning_fuel_;
-    int power_;
+    RacingCar vehicle_;
 };
