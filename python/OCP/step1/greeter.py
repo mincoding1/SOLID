@@ -13,5 +13,5 @@ class Greeter:
         else:
             return "Hello."
 
-    def set_formality(self, formality:str):
+    def set_formality(self, formality: str):
         self.__formality = formality
