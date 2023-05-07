@@ -5,7 +5,7 @@ class EventHandler:
         super().__init__()
         self.__vehicle = vehicle
 
-    def change_driving_mode(self, driving_mode:DrivingMode):
+    def change_driving_mode(self, driving_mode: DrivingMode):
         if driving_mode == DrivingMode.SPORT:
             self.__vehicle.set_power(500)
             self.__vehicle.set_suspension_height(10)
