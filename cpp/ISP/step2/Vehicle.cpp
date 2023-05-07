@@ -1,5 +1,5 @@
 #pragma once
-#include "Switches.cpp";
+#include "Switches.cpp"
 
 class Vehicle : public Switches {
 public:
