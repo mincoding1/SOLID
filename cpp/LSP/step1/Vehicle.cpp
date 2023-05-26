@@ -1,4 +1,6 @@
 #pragma once
+#include <string>
+
 enum class Gear {
 	P, //Parking
 	R, //Reverse
