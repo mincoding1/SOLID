@@ -3,13 +3,13 @@
 class Pilot {
 public:
     Pilot() {
-        vehicle_ = RacingCar(100);
+        vehicle_ = new RacingCar(100);
     }
 
     void IncreaseSpeed() {
-        vehicle_.Accelerate();
+        vehicle_->Accelerate();
     }
 
 private:
-    RacingCar vehicle_;
+    RacingCar *vehicle_;
 };
