@@ -1,6 +1,6 @@
 #include <string>
 #include <exception>
-#include "Bird.cpp";
+#include "Bird.cpp"
 using namespace std;
 
 class Penguin : public Bird {
