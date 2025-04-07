@@ -1,5 +1,5 @@
 #include <string>
-#include "Bird.cpp";
+#include "Bird.cpp"
 using namespace std;
 
 class Eagle : public Bird {
